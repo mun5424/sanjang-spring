@@ -8,9 +8,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class SJController {
     @GetMapping("/home")
-    public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-        model.addAttribute("name", name);
+    public String index() {
         return "index";
+    }
+    @GetMapping("/menu")
+    public String menu() {
+        return "menu";
     }
 
 }
