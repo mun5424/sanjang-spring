@@ -9,4 +9,4 @@ with your favorite command line interface.
 
 should return this page: 
 
-!(SanJang)[https://imgur.com/a/ddiKO19]
+![SanJang](https://i.imgur.com/8bM8sPX.jpg)
