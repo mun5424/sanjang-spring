@@ -1,0 +1,98 @@
+body { 
+    background-color: white;
+    background-image: url("../images/background-brown.jpeg");
+
+}
+.jumbotron{
+    background-color: rgb(230, 230, 231);
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.jumbotron img { 
+    margin-bottom: 20px;
+}
+
+.img-carousel {
+    max-height: 607px;
+    height: auto;
+    border-radius: 80px;
+}
+
+#header {
+    text-align: center;
+    padding: 15px;
+}
+h1, h3 {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+    font-size: 20px;
+}
+.headline-en {
+    font-size: 24px;
+}
+
+.gungsuh {
+    font-family: 'Gungsuh';
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+ }
+
+ a { 
+     color: white;
+     font-family: 'Dancing Script', cursive;
+ }
+
+ .nav-link { 
+     font-size: 30px;
+ }
+ 
+ .nav-item {
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 0px 10px 0px 10px;
+
+ }
+
+ .container-address {
+     text-align: center;
+     padding: 20px;
+ }
+
+ .address{ 
+    font-size: 30px;
+     
+ }
+
+ .navbar li { color: #000 } 
+
+ .featured-items{
+     text-align: center;
+ }
+@media screen and (max-width: 640px) {
+    
+    #logo { 
+        max-width: 80%;
+    }
+    .jumbotron { 
+        width: 100%; 
+    }
+
+.container-content {
+    width: 90%; 
+
+}
+    #artist, #game {
+        margin: 20px 20px 20px 20px;
+        padding: auto;
+    }
+}
